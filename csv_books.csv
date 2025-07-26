@@ -1,0 +1,31 @@
+name,author,quantity,price,genre,corner,rough
+Rich Dad,Mohamed,5,80,Finance,50,3
+Think and Grow Rich,Napoleon Hill,3,90,Self Help,12,2
+Atomic Habits,James Clear,10,100,Self Help,20,1
+The 7 Habits,Stephen Covey,4,85,Self Help,33,2
+Clean Code,Robert Martin,7,150,Programming,40,4
+Python Crash Course,Eric Matthes,8,120,Programming,45,2
+Introduction to Algorithms,Cormen,3,200,Programming,60,1
+The Lean Startup,Eric Ries,6,95,Business,52,3
+Deep Work,Cal Newport,5,88,Productivity,13,1
+Grit,Angela Duckworth,9,77,Psychology,11,2
+The Power of Habit,Charles Duhigg,6,110,Self Help,22,3
+You Don’t Know JS,Kyle Simpson,4,130,Programming,46,1
+Design Patterns,Erich Gamma,3,180,Programming,53,4
+Start With Why,Simon Sinek,7,90,Business,14,2
+Zero to One,Peter Thiel,5,105,Business,32,3
+AI Superpowers,Kai-Fu Lee,2,150,AI,65,1
+Superintelligence,Nick Bostrom,2,170,AI,66,1
+Data Science from Scratch,Joel Grus,6,140,Data Science,70,2
+Hands-On ML,Aurélien Géron,7,160,AI,71,3
+Python for Data Analysis,Wes McKinney,9,130,Data Science,73,2
+Sapiens,Yuval Noah Harari,4,120,History,10,1
+Homo Deus,Yuval Noah Harari,3,130,History,11,2
+1984,George Orwell,10,60,Fiction,6,3
+Brave New World,Aldous Huxley,5,70,Fiction,7,3
+The Alchemist,Paulo Coelho,11,85,Fiction,8,2
+To Kill a Mockingbird,Harper Lee,4,90,Fiction,9,1
+The Great Gatsby,F. Scott Fitzgerald,6,75,Fiction,15,1
+A Brief History of Time,Stephen Hawking,2,100,Physics,18,1
+Cosmos,Carl Sagan,3,110,Physics,19,2
+Astrophysics for People,Neil deGrasse Tyson,2,95,Physics,20,2
