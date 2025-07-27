@@ -3,16 +3,16 @@ import csv
 from validations import is_iterable
 from class_inspect_utils import get_all_attributes
 
-from typing import Union
+from typing import Any
+
+def to_dict(objects: list | Any) -> list[dict] | dict:
+    if isinstance(objects, list):
+        return [object_to_dict(obj) for obj in objects]
+    return object_to_dict(objects)
 
 
-def to_dict(objects, attrs: list[str]) -> Union[list[dict], dict]:
-    if is_iterable(objects):
-        return [object_to_dict(obj, attrs) for obj in objects]
-    return object_to_dict(objects, attrs)
-
-
-def object_to_dict(obj, attrs: list[str]) -> dict:
+def object_to_dict(obj) -> dict:
+    attrs: list[str] = get_attributes_names(type(obj))
     return {attr: getattr(obj, attr) for attr in attrs}
 
 
